@@ -1,0 +1,12 @@
+2020-10-29 10:39:21,497 INFO root MainThread : USER KEY is u7q49es7qv5k8gyf6vtc7ee2urepz2, APP TOKEN is None
+2020-10-29 10:39:21,504 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.pushover.net:443
+2020-10-29 10:39:21,926 DEBUG urllib3.connectionpool MainThread : https://api.pushover.net:443 "POST /1/messages.json HTTP/1.1" 400 None
+2020-10-29 10:39:21,929 INFO root MainThread : post reply {"message":"cannot be blank","errors":["message cannot be blank"],"status":0,"request":"b27e6b17-f629-45d5-b16d-2573e4b43c1e"}
+2020-10-29 10:40:48,951 INFO root MainThread : USER KEY is u7q49es7qv5k8gyf6vtc7ee2urepz2, APP TOKEN is aiam22p1vceoivhr9yqp9v428pt4fz
+2020-10-29 10:40:48,958 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.pushover.net:443
+2020-10-29 10:40:49,308 DEBUG urllib3.connectionpool MainThread : https://api.pushover.net:443 "POST /1/messages.json HTTP/1.1" 400 None
+2020-10-29 10:40:49,312 INFO root MainThread : post reply {"message":"cannot be blank","errors":["message cannot be blank"],"status":0,"request":"9e02eac1-83cd-4c36-bf59-d23becd4ce2f"}
+2020-10-29 10:42:05,769 INFO root MainThread : USER KEY is u7q49es7qv5k8gyf6vtc7ee2urepz2, APP TOKEN is aiam22p1vceoivhr9yqp9v428pt4fz
+2020-10-29 10:42:05,775 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.pushover.net:443
+2020-10-29 10:42:06,215 DEBUG urllib3.connectionpool MainThread : https://api.pushover.net:443 "POST /1/messages.json HTTP/1.1" 200 None
+2020-10-29 10:42:06,221 INFO root MainThread : post reply {"status":1,"request":"96429a18-287b-4e87-a952-19ebb3347ba9"}
