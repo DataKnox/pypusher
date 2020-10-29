@@ -66,7 +66,7 @@ guestshell
 [guestshell@guestshell ~]$ sudo pip3 install requests
 [guestshell@guestshell ~]$ vi ospfsender.py
 ```
-# Press I to begin typing
+# Press I to begin typing - change the URL to be your Flask IP Address!!!!!!
 ```
 import requests
 import json
