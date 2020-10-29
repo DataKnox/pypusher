@@ -44,6 +44,7 @@ int gig 1
 ip nat outside
 exit
 ip access-list standard NATOUT
+permit 192.168.0.0 0.0.255.255
 exit
 ip nat inside source list NATOUT interface gigabitEthernet 1 overload
 ip http server
