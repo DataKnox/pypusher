@@ -1,4 +1,6 @@
 import os
+# from dotenv import load_dotenv
+# load_dotenv()
 
 
 def getEnviron():
@@ -9,4 +11,5 @@ def getEnviron():
     app_token = os.environ.get('APPKEY')
     evars['user_key'] = user_key
     evars['app_token'] = app_token
+    print(evars)
     return evars
